@@ -1,0 +1,27 @@
+<ion-header>
+    <ion-navbar>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title>신입생 엑셀등록</ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content padding>
+    <ion-list>
+      <br>
+     <div>
+         <input type="file" (change)="handleFile($event)" />
+     </div>
+     <br>
+     <div *ngIf="result && result.length>0">
+         <h2>
+             Result : 
+             <br>
+         </h2>
+         {{result}}
+     </div>
+     <button ion-button (click)="excelEnter()"> 등록 </button>
+   </ion-list> 
+  </ion-content>
+  

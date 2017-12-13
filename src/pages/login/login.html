@@ -1,0 +1,31 @@
+<ion-header>
+    <ion-navbar>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title>로그인</ion-title>
+    </ion-navbar>
+</ion-header>
+  
+<ion-content padding class="page-login">
+    <table class="loginTable">
+        <tr>
+            <td>
+                <ion-item>
+                        <ion-label floating>ID</ion-label><!--id input-->
+                        <ion-input type="text" [(ngModel)]="user.user_id"></ion-input>
+                </ion-item>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <ion-item>
+                    <ion-label floating>Password</ion-label><!--pw input-->
+                    <ion-input type="password" [(ngModel)]="user.user_password"></ion-input>
+                </ion-item>
+            </td>
+        </tr>
+</table>
+<button ion-button block (click)="signIn()">로그인</button>
+</ion-content>
+  

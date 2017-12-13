@@ -1,0 +1,24 @@
+.page-userlist {
+    
+        .userlistTable tr:first-child td {
+            font-weight: bold;
+        }
+    
+        td {
+            border-right: 1px solid gray;
+            padding: 2px;
+        }
+    
+        tr {
+            border-bottom: 1px solid gray;
+        }
+    
+        table.userlistTable {
+            border-collapse: collapse;
+            border-spacing: 0;
+            font-size: 10px;
+            width: 100%;
+            text-align: center;
+            border: 1px solid gray;
+        }
+    }

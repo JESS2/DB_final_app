@@ -1,0 +1,33 @@
+<ion-header>
+    <ion-navbar>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title>멘티 정보</ion-title>
+    </ion-navbar>
+</ion-header>
+  
+<ion-content padding class="page-userlist">
+  <table class="userlistTable">
+    <tr>
+      <td>학번</td>
+      <td>이름</td>
+      <td>전공</td>
+      <td>학년</td>
+      <td>전화번호</td>
+      <td>이메일</td>
+      <td>성별</td>
+    </tr>
+    <tr> <!--ts파일에서 변수 선언해준 user_list를 가져와서 반복문을 돌린다.-->
+      <td>{{user.user_id}}</td> <!--user_list에서 user_id를 가져온다-->
+      <td>{{user.user_name}}</td>
+      <td>{{user.user_major}}</td>
+      <td>{{user.user_year}}</td>
+      <td>{{user.user_phone}}</td>
+      <td>{{user.user_email}}</td>
+      <td>{{user.user_sex}}</td>
+
+    </tr>
+  </table>
+</ion-content>
+  

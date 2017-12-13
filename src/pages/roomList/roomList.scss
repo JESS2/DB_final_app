@@ -1,0 +1,161 @@
+.page-room {
+    background: #F0F0F0;
+    .button-ios, .button-md {
+        border-radius: 4px;
+        height: 2.8em;
+        font-size: 1.6rem;
+        color: #fff;
+        background : #38484f;
+    }
+    
+    .roomTable {
+        width: 100%;
+        background: white;
+        *border-collapse: collapse; /* IE7 and lower */
+        border-spacing: 0;
+        width: 100%;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        border-radius: 6px;
+        -webkit-box-shadow: 0 1px 1px #ccc;
+        -moz-box-shadow: 0 1px 1px #ccc;
+        box-shadow: 0 1px 1px #ccc;
+        margin-bottom: 10px;
+    }
+
+    .roomTable td {
+        font-size: 13px;
+    }
+
+    .roomTable tr:first-child td:first-child{
+        -moz-border-radius: 6px 0 0 0;
+        -webkit-border-radius: 6px 0 0 0;
+        border-radius: 6px 0 0 0;
+    }
+     
+    .roomTable tr:first-child td:last-child {
+        -moz-border-radius: 0 6px 6px 0;
+        -webkit-border-radius: 0 6px 6px 0;
+        border-radius: 0 6px 6px 0;
+    }
+
+    .roomTable tr:last-child td {
+        -moz-border-radius: 0 0 6px 6px;
+        -webkit-border-radius: 0 0 6px 6px;
+        border-radius: 0 0 6px 6px;
+    }
+     
+
+    .roomTable tr:nth-child(2) td {
+        padding-left: 15px;
+    }
+
+    .roomTable tr:first-child td:nth-child(2) {
+        padding: 10px;
+    }
+
+    .roomTable tr:last-child td {
+        padding-left: 10px;
+    }
+
+    .roomTableButton {
+        text-align: center;
+        background: #91A0AB;
+        width: 20%;
+        padding-left: 0px;
+    }
+
+    ion-icon.icon.icon-md.ion-ios-arrow-dropright-outline,
+    ion-icon.icon.icon-ios.ion-ios-arrow-dropright-outline {
+        color: white;
+    }
+
+    .roomTableImg {
+        width: 20%;
+        padding-left:15px;
+    }
+
+    .roomTableImg img {
+        width: 50px;
+        height: 62.66px;
+        min-width: 50px;
+        min-height: 62.66px;
+        max-width: 50px;
+        max-height: 62.66px;
+    }
+    button.fileButton.disable-hover.button.button-md.button-default.button-default-md,
+    button.fileButton.disable-hover.button.button-ios.button-default.button-default-ios {
+        background: #61A5FF;
+        height: 20px;
+        vertical-align: middle;
+        font-size: 10px;
+        margin: 0px;
+    }
+
+    button.fileButton span.button-inner {
+        font-size: 10px;
+    }
+
+    button.fileButton2.disable-hover.button.button-md.button-default.button-default-md,
+    button.fileButton2.disable-hover.button.button-ios.button-default.button-default-ios {
+        background: #575757;
+        height: 20px;
+        vertical-align: middle;
+        font-size: 10px;
+        margin: 0px;
+    }
+
+    button.fileButton2 span.button-inner {
+        font-size: 10px;
+    }
+
+    button.fileButton3.disable-hover.button.button-md.button-default.button-default-md,
+    button.fileButton3.disable-hover.button.button-ios.button-default.button-default-ios {
+        background: #FF5555;
+        height: 20px;
+        vertical-align: middle;
+        font-size: 10px;
+        margin: 0px;
+    }
+
+    button.fileButton3 span.button-inner {
+        font-size: 10px;
+    }
+    
+    button.fileButton4.disable-hover.button.button-md.button-default.button-default-md,
+    button.fileButton4.disable-hover.button.button-ios.button-default.button-default-ios {
+        background: #BBBBBB;
+        height: 20px;
+        vertical-align: middle;
+        font-size: 10px;
+        margin: 0px;
+    }
+
+    button.fileButton4 span.button-inner {
+        font-size: 10px;
+    }
+
+    button.fileButton.disable-hover.button.button-md.button-default.button-default-md,
+    button.fileButton.disable-hover.button.button-ios.button-default.button-default-ios {
+        box-shadow: none;
+    }
+
+    
+}
+
+.alert-ios .alert-radio-group, .alert-ios .alert-checkbox-group {
+    overflow: auto;
+    max-height: 240px;
+    border-top: 0.55px solid #dbdbdf;
+    -webkit-overflow-scrolling: touch;
+}
+
+.room-header {
+    .home_logo_wrapper {
+        text-align: center;
+    }
+    .navbar-btn {
+        position: absolute;
+        //top: 12px;
+    }
+}

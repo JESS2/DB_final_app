@@ -1,0 +1,21 @@
+<ion-header>
+    <ion-navbar>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title>멘토방 목록</ion-title>
+    </ion-navbar>
+</ion-header>
+  
+<ion-content padding class="page-room">
+  <table class="roomTable" *ngFor="let m of mentoroom_list">
+      <tr>
+        <td>{{m.user_name}}의 멘토방</td>
+        <td class="roomTableButton" (click)="openRoomDetailPage(m)"><ion-icon name="ios-arrow-dropright-outline"></ion-icon></td>
+      </tr>
+    </table>
+  <button ion-button block color="primary" (click)="openMentoaddPage()" *ngIf="USERAUTH != 1 && USERAUTH != 2">멘토신청</button>
+  <!--userauth = 1 : 멘토-->
+</ion-content>
+  
+

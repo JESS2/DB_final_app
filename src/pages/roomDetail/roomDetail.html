@@ -1,0 +1,129 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-title>
+          {{mentoroom.team_name}}
+      </ion-title> 
+      <ion-buttons end>
+          <button ion-button (click)="dismiss()">
+              <span ion-text><ion-icon name="close"></ion-icon></span>
+          </button>
+      </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="page-roomDetail">
+
+  <table class="roomDetailTable">
+      <tr>
+          <td>
+              <b>멘토 : </b>
+              {{mentoroom.user_name}}
+          </td>
+      </tr>
+      <tr>
+          <td>
+              <b>팀명 : </b>
+              {{mentoroom.team_name}}
+          </td>
+      </tr>
+      <tr>
+          <td>
+              <b>주제 : </b>
+              {{mentoroom.team_theme}}
+          </td>
+      </tr>
+      <tr>
+          <td>
+              <b>현재팀원 : </b>
+              {{mentoroom.person_count}}명
+          </td>
+      </tr>
+      <tr>
+          <td>&nbsp;</td>
+      </tr>
+  </table>
+
+  
+  <ion-list-header>
+          팀원 목록              
+  </ion-list-header>
+
+  <ion-item class="menti_list">
+      <li>
+          {{mentoroom.mento_id}} {{mentoroom.user_name}} <b>(멘토)</b>
+      </li>
+  </ion-item>
+
+  <ion-item *ngFor="let m of mentis" class="menti_list" (click)="mentiInfo(m)">
+      <li>
+          {{m.menti_id}} {{m.user_name}}
+      </li>
+  </ion-item>
+  
+
+  
+
+  <!-- 멘티 신청 인터페이스 -->
+  <ion-item no-lines *ngIf="USERAUTH == 0" class="menteeButton"> 
+      <button ion-button block class="teamOk" (click)="joinMentee()">멘티 신청</button>
+  </ion-item>
+
+  <!-- 멘티 신청 취소 인터페이스 -->
+  <!--
+  <div *ngFor="let m of mentis">
+      <ion-item no-lines *ngIf="USERAUTH === 2 && m.menti_id==USERID" class="menteeButton"> 
+          <button ion-button class="teamNo" (click)="cancelMentee()">멘티 신청취소</button>
+      </ion-item>
+  </div>
+-->
+
+
+  <!-- 관리자 인터페이스 -->
+  <!--
+  <ion-item no-lines  *ngIf="USERAUTH === 3 && selectedRoom.team_confirm === 0" >
+      <button ion-button class="teamOk" (click)="confirm()">개설승낙</button>
+      <button ion-button class="teamNo" (click)="reject()">개설거절</button>
+  </ion-item>
+-->
+  
+  <!-- <ion-list-header>
+          설문조사                
+  </ion-list-header>
+  <div class="poll">
+      <b>Q1.</b> 멘토링 활동에 만족하셨나요?
+  </div>
+  <ion-item>
+    <ion-range min="1" max="5" pin="true" step="1" snaps="true">
+      <ion-icon range-left name="md-sad"></ion-icon>
+      <ion-icon range-right name="md-happy"></ion-icon>
+    </ion-range>
+  </ion-item>
+
+  <div class="poll">
+      <b>Q2.</b> 성실히 참여했나요?
+  </div>
+  <ion-item>
+    <ion-range min="1" max="5" pin="true" step="1" snaps="true">
+      <ion-icon range-left name="md-sad"></ion-icon>
+      <ion-icon range-right name="md-happy"></ion-icon>
+    </ion-range>
+  </ion-item>
+
+  <div class="poll">
+      <b>Q3.</b> 다음에 또 멘토링 활동에 참여하고 싶은가요?
+  </div>
+  <ion-item>
+    <ion-range min="1" max="5" pin="true" step="1" snaps="true">
+      <ion-icon range-left name="md-sad"></ion-icon>
+      <ion-icon range-right name="md-happy"></ion-icon>
+    </ion-range>
+  </ion-item>
+
+  <ion-item no-lines>
+          <button ion-button class="teamOk" (click)="openRoomPage()">설문 완료</button>
+  </ion-item> -->
+
+  <br/>
+  <br/>
+  <br/>
+</ion-content>

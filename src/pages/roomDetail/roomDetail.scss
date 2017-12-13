@@ -1,0 +1,429 @@
+.page-roomDetail {
+    table.roomDetailTable {
+        width: 100%;
+        margin-top:15px;
+        margin-bottom: 15px;
+    }
+
+    .roomDetailTable tr td {
+        padding-left:15px;
+        font-size: 14px;
+        height: 30px;
+    }
+
+    .roomDetailTable tr td b {
+        font-size: 14px;
+    }
+
+    .roomDetailTable tr:first-child td:first-child {
+        width:40%;
+        padding-left: 5%;
+    }
+
+    .list-header-md {
+        padding-left: 16px;
+        margin-bottom: 1px;
+        min-height: 4.5rem;
+        border-top: 1px solid #dedede;
+        font-size: 14px;
+        color: black;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    .list-header-ios {
+        padding-left: 16px;
+        position: relative;
+        border-top: 0.55px solid #c8c7cc;
+        border-bottom: none;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0.1rem;
+        text-transform: uppercase;
+        color: #333;
+        background: transparent;
+        margin-top: 10px;
+        margin-bottom: 1px;
+    }
+
+    div.teamInfo {
+        padding-top: 0px;
+        white-space: pre-line;
+        line-height: 20px;
+        margin-bottom: 7px;
+    }
+
+    button.fileButton.disable-hover.button.button-md.button-default.button-default-md,
+    button.fileButton.disable-hover.button.button-ios.button-default.button-default-ios {
+        background: #488aff;
+        height: 20px;
+        vertical-align: middle;
+        font-size: 10px;
+        margin: 0px;
+    }
+
+    button.fileButton span.button-inner,
+    button.fileButton2 span.button-inner {
+        font-size: 10px;
+    }
+
+    button.fileButton2.disable-hover.button.button-md.button-default.button-default-md,
+    button.fileButton2.disable-hover.button.button-ios.button-default.button-default-ios {
+        background: #488aff;
+        height: 20px;
+        vertical-align: middle;
+        font-size: 10px;
+        margin: 0px;
+    }
+
+    ion-item.item.item-block.item-md,
+    ion-item.item.item-block.item-ios {
+        padding-left: 0px;
+        text-align: right;
+        border-bottom: 0.55px;
+    }
+
+    .menteeButton.button-ios, 
+    .menteeButton.button-md {
+        border-radius: 4px;
+        height: 2.8em;
+        font-size: 1.6rem;
+        color: #fff;
+        background : linear-gradient(to right, #91A0AB, #38484f );
+        margin-top: 10px;
+    }
+
+    table.reportTable {
+        width: 100%;
+        margin-top: -1px;
+        border-bottom: 1px solid lightgray;
+    }
+
+    .reportTable td {
+        font-size: 14px;
+    }
+
+    .reportTable tr:first-child td:first-child {
+        padding-top: 10px;
+        padding-bottom: 2px;
+        padding-left: 16px;
+    }
+
+    .reportTable tr:last-child td {
+        padding-top: 2px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+    }
+
+    .reportTable td span.reportTime {
+        font-size: 10px;
+        color: gray;
+    }
+
+    .reportTable td:nth-child(2) {
+        width: 15%;
+        text-align: center;
+    }
+
+    .reportTable tr:first-child td:last-child {
+        width:20%;
+        vertical-align: middle;
+        text-align: center;
+        color:white;
+    }
+
+    .report-end {
+        background: #100057;
+    }
+
+    .report-ing {
+        background: #004100;
+    }
+
+    .report-reject {
+        background: #6D0101;
+    }
+    
+    ion-icon.icon.icon-md.ion-md-download,
+    ion-icon.icon.icon-ios.ion-md-download {
+        color: black;
+    }
+
+    ion-item.item.item-block.item-md.item-range {
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+
+    .range-md [range-left] {
+        margin: 5px 12px 0 0;
+        vertical-align: middle;
+        color: black;
+    }
+    
+    .range-md [range-right] {
+        margin: 5px 0 0 12px;
+        color: #488aff;
+    }
+
+    .poll {
+        font-size: 14px;
+        padding-left: 16px;
+        padding-top: 16px;
+    }
+
+    .youtube-icon {
+        display: inline-block;
+        vertical-align: middle;
+        color: indianred;
+        padding-left: 16px;
+        padding-right: 5px;
+    }
+
+    span.youtube-span {
+        vertical-align: middle;
+        font-size: 14px;
+        color: #488aff;
+        text-decoration: underline;
+    }
+
+
+    ion-icon.link-icon.icon.icon-md.ion-md-add-circle.item-icon {
+        vertical-align: middle;
+        margin-right: 16px;
+    }
+
+    button.submitButton.disable-hover.button.button-md.button-default.button-default-md,
+    button.submitButton.disable-hover.button.button-ios.button-default.button-default-ios {
+        background: #38484f;
+        height: 20px;
+        vertical-align: middle;
+        font-size: 10px;
+        margin: 0px;
+    }
+
+    button.submitButton span.button-inner{
+        font-size: 10px;
+    }
+
+    ion-icon.link-icon.icon.icon-md.ion-md-add-circle.item-icon {
+        color: #38484f;
+    }
+
+    ion-list-header.item.item-md.list-header.list-header-md {
+        background: #EBEBEB;
+    }
+
+    div.teamLink {
+        margin-top: 20px;
+        margin-bottom: -15px;
+    }
+    
+    .menteeButton .item-inner {
+        margin-left: 0px;
+    }
+
+    .menteeButton ion-label.label.label-md {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .teamOk {
+        border-radius: 4px;
+        height: 2.8em;
+        font-size: 1.6rem;
+        color: #fff;
+        background: #91A0AB;
+        width: calc(100% - 13px);
+        text-align: center;
+        margin-left: 6px;
+    }
+
+    .teamNo {
+        border-radius: 4px;
+        height: 2.8em;
+        font-size: 1.6rem;
+        color: #fff;
+        background: indianred;
+        width: calc(100% - 13px);
+        text-align: center;
+        margin-left: 6px;
+    }
+
+    ion-item.menteeButton.item.item-block.item-md,
+    ion-item.menteeButton.item.item-block.item-ios {
+        border-bottom: none;
+    }
+
+    .menti_list {
+        text-align: left;
+    }
+
+    ion-item.menti_list.item.item-block.item-md,
+    ion-item.menti_list.item.item-block.item-ios {
+        text-align: left;
+        border-bottom: 0.55px;
+    }
+    
+    .label-ios,
+    .lebel-md {
+        margin: 11px 8px 11px 16px;
+        font-weight: bold;
+    }
+    
+    .label-md {
+        margin: 13px 8px 13px 16px;
+    }
+
+    .file-item .label-md {
+        margin: 13px 8px 13px 0px;
+    }
+
+
+    ion-list-header.item.item-md.list-header.list-header-md {
+        background: #EBEBEB;
+        margin-top: 0px;
+    }
+
+    div.teamLink {
+        margin-top: 20px;
+        margin-bottom: -15px;
+    }
+    
+    .menteeButton .item-inner {
+        margin-left: 0px;
+    }
+
+    .menteeButton ion-label.label.label-md {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .teamOk {
+        border-radius: 4px;
+        height: 2.8em;
+        font-size: 1.6rem;
+        color: #fff;
+        background: #91A0AB;
+        width: calc(100% - 13px);
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    .teamNo {
+        border-radius: 4px;
+        height: 2.8em;
+        font-size: 1.6rem;
+        color: #fff;
+        background: indianred;
+        width: calc(100% - 13px);
+        text-align: center;
+    }
+
+    ion-item.menteeButton.item.item-block.item-md,
+    ion-item.menteeButton.item.item-block.item-ios {
+        border-bottom: none;
+    }
+
+    .menti_list {
+        text-align: left;
+    }
+
+    ion-item.menti_list.item.item-block.item-md,
+    ion-item.menti_list.item.item-block.item-ios {
+        text-align: left;
+        border-bottom: 0.55px;
+    }
+
+    ion-list-header.item.item-ios.list-header.list-header-ios, ion-list-header.item.item-md.list-header.list-header-md {
+        padding-left: 0px;
+        background: #E6E6E6;
+        margin-top: 0px;
+    }
+
+    // 보고서 제출 업로드 버튼 스타일
+    .inputfile {
+        width: 0.1px;
+        height: 0.1px;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .inputfile + label {
+        font-size: 1.25em;
+        font-weight: 700;
+        color: white;
+        background-color: black;
+        display: inline-block;
+    }
+
+    .inputfile:focus + label,
+    .inputfile + label:hover {
+        background-color: red;
+    }
+
+    .inputfile + label {
+        cursor: pointer; /* "hand" cursor */
+    }
+
+    .inputfile + label * {
+        pointer-events: none;
+    }
+
+    .uploadWrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+    }
+
+    .inputLabel {
+        flex: 5;
+        line-height: 40px;
+        text-align: center;
+        height: 45px;
+        border-radius: 4px;
+    }
+
+    .button {
+        margin-left: 10px;
+        flex: 1;
+    }
+
+    table.reportTable td:first-child {
+        width: 58%;
+    }
+
+    ion-icon.icon.icon-md.ion-md-trash,
+    ion-icon.icon.icon-ios.ion-md-trash {
+        color: indianred;
+    }
+
+    ion-icon.icon.icon-md.ion-md-download,
+    ion-icon.icon.icon-ios.ion-md-download {
+        color: #488aff;
+    }
+
+    .teamOk {
+        border-radius: 4px;
+        height: 2.8em;
+        font-size: 1.6rem;
+        color: #fff;
+        background: #91A0AB;
+        width: calc(100% - 13px);
+        text-align: center;
+        margin-left: 6px;
+    }
+
+    .teamNo {
+        border-radius: 4px;
+        height: 2.8em;
+        font-size: 1.6rem;
+        color: #fff;
+        background: indianred;
+        width: calc(100% - 13px);
+        text-align: center;
+        margin-left: 6px;
+    }
+}
